@@ -691,7 +691,55 @@ html body footer p {
   }
 }
 
-@media (max-width: 537px) {
+@media (max-height: 595px) {
+  html body #about .info .hex {
+    margin-top: 10vh;
+  }
+  html body #hexes .hex:first-of-type {
+    margin-top: 25vh;
+  }
+  html body #hexes .hex:last-of-type {
+    margin-bottom: 25vh;
+  }
+}
+
+@media (max-height: 500px) {
+  html body #hexes .hex:first-of-type {
+    margin-top: 35vh;
+  }
+  html body #hexes .hex:last-of-type {
+    margin-bottom: 35vh;
+  }
+}
+
+@media (max-height: 410px) {
+  html body #hexes .hex:first-of-type {
+    margin-top: 50vh;
+  }
+  html body #hexes .hex:last-of-type {
+    margin-bottom: 50vh;
+  }
+}
+
+@media (max-height: 330px) {
+  html body #hexes .hex:first-of-type {
+    margin-top: 60vh;
+  }
+  html body #hexes .hex:last-of-type {
+    margin-bottom: 60vh;
+  }
+}
+
+@media (max-height: 295px) {
+  html body #hexes .hex:first-of-type {
+    margin-top: 70vh;
+  }
+  html body #hexes .hex:last-of-type {
+    margin-bottom: 70vh;
+  }
+}
+
+@media (max-width: 538px) {
   html body #about .info .hex {
     margin-left: 18% !important;
   }
